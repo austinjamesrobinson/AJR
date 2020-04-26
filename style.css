@@ -1,0 +1,449 @@
+/* Universal Styles */
+html {
+    font-size: 16px;
+    background-color: #F2F2F3;
+    color: #231F20;
+  }
+
+/* Header */
+header {
+    padding: 1rem 0rem 1rem 0.75rem;
+    width: 95%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 375px) and (orientation: portrait) {
+    #logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 375px;
+        height: 375px;
+        margin-top: -187.5px; /* Half the height */
+        margin-left: -187.5px; /* Half the width */
+    }
+    #square {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: -450px; /* Half the width */
+    }
+    #triangle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: -100px; /* Half the width */
+    }
+    #circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: 250px; /* Half the width */
+    }
+    .icon {
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        width: 175px;
+        height: 175px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .squareicon {
+        position: absolute;
+        top: 6%;
+        left: 72.5%;
+        width: 50px;
+        height: 50px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .triangleicon {
+        position: absolute;
+        top: 70%;
+        left: 8%;
+        width: 50px;
+        height: 50px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .circleicon {
+        position: absolute;
+        top: 70%;
+        left: 72.5%;
+        width: 50px;
+        height: 50px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    p {
+        font-family: "Nunito Sans";
+        font-size: 1rem;
+        padding: 5.5rem 0rem 1rem 0.75rem;
+        width: 80%;
+    }
+    h1{
+        font-family: "Playfair Display 400";
+        font-size: 1.25rem;
+        padding: 0rem 5rem 0rem 2rem;
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) and (orientation: portrait) {
+    #logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 500px;
+        height: 500px;
+        margin-top: -250px; /* Half the height */
+        margin-left: -250px; /* Half the width */
+    }
+    #square {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: -450px; /* Half the width */
+    }
+    #triangle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: -100px; /* Half the width */
+    }
+    #circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: 250px; /* Half the width */
+    }
+    .icon {
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        width: 250px;
+        height: 250px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .squareicon {
+        position: absolute;
+        top: 6%;
+        left: 85%;
+        width: 75px;
+        height: 75px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .triangleicon {
+        position: absolute;
+        top: 70%;
+        left: 8%;
+        width: 75px;
+        height: 75px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .circleicon {
+        position: absolute;
+        top: 70%;
+        left: 82%;
+        width: 75px;
+        height: 75px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    p {
+        font-family: "Nunito Sans";
+        font-size: 1.35rem;
+        padding: 9.5rem 0rem 2rem 2rem;
+        width: 92%;
+    }
+    h1{
+        font-family: "Playfair Display 400";
+        font-size: 1.65rem;
+        padding: 0rem 5rem 0rem 5rem;
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+    #logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 750px;
+        height: 750px;
+        margin-top: -375px; /* Half the height */
+        margin-left: -375px; /* Half the width */
+    }
+    #square {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: -450px; /* Half the width */
+    }
+    #triangle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: -100px; /* Half the width */
+    }
+    #circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: 250px; /* Half the width */
+    }
+    .icon {
+        position: absolute;
+        top: 5%;
+        left: 7.5%;
+        width: 350px;
+        height: 350px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .squareicon {
+        position: absolute;
+        top: 7.5%;
+        left: 82%;
+        width: 100px;
+        height: 100px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .triangleicon {
+        position: absolute;
+        top: 70%;
+        left: 8%;
+        width: 100px;
+        height: 100px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .circleicon {
+        position: absolute;
+        top: 70%;
+        left: 82%;
+        width: 100px;
+        height: 100px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    p {
+        font-family: "Nunito Sans";
+        font-size: 1.5rem;
+        padding: 13rem 0rem 2rem 2rem;
+        width: 92%;
+    }
+    h1{
+        font-family: "Playfair Display 400";
+        font-size: 2rem;
+        padding: 0rem 5rem 0rem 7.5rem;
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1599px) and (orientation: landscape) {
+    #logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 750px;
+        height: 750px;
+        margin-top: -375px; /* Half the height */
+        margin-left: -375px; /* Half the width */
+    }
+    #square {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: -450px; /* Half the width */
+    }
+    #triangle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: -100px; /* Half the width */
+    }
+    #circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: 250px; /* Half the width */
+    }
+    .icon {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 500px;
+        height: 500px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .squareicon {
+        position: absolute;
+        top: 6%;
+        left: 85%;
+        width: 125px;
+        height: 125px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .triangleicon {
+        position: absolute;
+        top: 92.5%;
+        left: 4.5%;
+        width: 125px;
+        height: 125px;
+        padding-bottom: 35px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .circleicon {
+        position: absolute;
+        top: 92.5%;
+        left: 85%;
+        width: 125px;
+        height: 125px;
+        padding-bottom: 35px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    p {
+        font-family: "Nunito Sans";
+        font-size: 2rem;
+        padding: 18rem 0rem 2rem 5rem;
+        width: 92%;
+    }
+    h1{
+        font-family: "Playfair Display 400";
+        font-size: 2.75rem;
+        padding: 1rem 5rem 0rem 10rem;
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (orientation: landscape) {
+    #logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 750px;
+        height: 750px;
+        margin-top: -375px; /* Half the height */
+        margin-left: -375px; /* Half the width */
+    }
+    #square {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: -450px; /* Half the width */
+    }
+    #triangle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: -100px; /* Half the width */
+    }
+    #circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-top: 100px; /* Half the height */
+        margin-left: 250px; /* Half the width */
+    }
+    .icon {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 500px;
+        height: 500px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .squareicon {
+        position: absolute;
+        top: 7.5%;
+        left: 89%;
+        width: 150px;
+        height: 150px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .triangleicon {
+        position: absolute;
+        top: 83%;
+        left: 4.5%;
+        width: 150px;
+        height: 150px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    .circleicon {
+        position: absolute;
+        top: 83%;
+        left: 89%;
+        width: 150px;
+        height: 150px;
+        margin-top: -18.75px; /* Half the height */
+        margin-left: -18.75px; /* Half the width */
+    }
+    p {
+        font-family: "Nunito Sans";
+        font-size: 2rem;
+        padding: 18rem 0rem 2rem 5rem;
+        width: 92%;
+    }
+    h1{
+        font-family: "Playfair Display 400";
+        font-size: 2.75rem;
+        padding: 1rem 5rem 0rem 10rem;
+        width: 50%;
+    }
+}
